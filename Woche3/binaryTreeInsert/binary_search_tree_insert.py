@@ -11,20 +11,20 @@ class BinarySearchTree:
         self.root_node = None
 
     def insert(self, data):
-        if self.root_node is None:    
+        if not self.root_node:    
             self.root_node = Node(data)
             return
         
         current = self.root_node
         while True:
             if current.data > data:
-                if current.left_child is None:
+                if not current.left_child:
                     current.left_child = Node(data)
                     return
                 else:
                     current = current.left_child
             elif current.data < data:
-                if current.right_child is None:
+                if not current.right_child:
                     current.right_child = Node(data)
                     return
                 else:
