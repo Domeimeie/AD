@@ -1,0 +1,24 @@
+Frage 1:
+Wie nennt man es, wenn zwei verschiedene Eingaben denselben Hashwert ergeben 
+und wie kann das vorkommen?
+
+Antwort:
+Wenn zwei Eingaben denselben Wert ergeben, nennt man das eine Kollision.
+Beispiel: "hello world" und "world hello" bei einer simplen Summenfunktion.
+
+
+Frage 2:
+Wofür braucht man Hashfunktionen?
+
+Antwort:
+1. Hashtabellen/Dictionaries
+2. Prüfsummen
+3. Passwörter speichern (Verschlüsselung)
+
+
+Frage 3:
+Was ist eine perfekte Hashfunktion?
+
+Antwort:
+Sie erzeugt für jede Eingabe einen einzigartigen Hashwert. Möglich ist das nur, 
+wenn alle möglichen Eingaben vorher bekannt sind.
